@@ -1,0 +1,15 @@
+{
+  "name": "my-app",
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "next": "latest",
+    "react-redux": "latest",
+    "redux": "latest",
+    "redux-thunk": "latest"
+  },
+  "scripts": {
+    "start": "next",
+    "build": "next build",
+    "prod": "next start"
+  }
+}
