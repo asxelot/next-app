@@ -6,7 +6,7 @@ export const reducer = combineReducers({
 });
 
 export const initStore = (reducer, initialState, isServer) => {
-  if (isServer && typeof window === 'undefined') {
+  if (isServer || typeof window === 'undefined') {
     return createStore(reducer, initialState);
   } else {
     if (!window.store) {

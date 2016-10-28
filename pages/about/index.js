@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import style from 'next/css';
+import fetch from 'isomorphic-fetch';
 
 export default class About extends Component {
   static async getInitialProps({ req }) {
